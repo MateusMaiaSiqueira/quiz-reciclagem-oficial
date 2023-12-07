@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background: url('./fundo-reciclagem.png') center center no-repeat;
+  background-size: cover;
+  font-family: 'poppins', sans-serif;
+}
+
+
+body h2 {
+  color: #43A047;
+}
+
+main {
+  background-color: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#ranking-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ranking-table th, #ranking-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#ranking-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#ranking-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #43A047;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+.button-container {
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz da Reciclagem</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>QUIZ DA RECICLAGEM</h2>
+  <main>
+    <div class="start">
+      <label for="username">Digite seu nome:</label>
+      <input type="text" id="username" />
+      <button onclick="startGame()">Iniciar Jogo</button>
+    </div>
+    <div class="content">
+      <span class="spnQtd"></span>
+      <span class="question"></span>
+      <div class="answers"></div>
+      <div class="score">Pontuação: <span class="current-score">0</span></div>
+    </div>
+    <div class="finish">
+      <span></span>
+      <button onclick="restartGame()">Reiniciar</button>
+      <div style="text-align: center;">
+        <a id="verRankingLink" href="ranking.html">Ver Ranking</a>
+      </div>
+    </div>
+  </main>
+  
+  <script type="module" src="script.js"></script>
+  <script type="module" src="ranking-script.js"></script>
+  
+</body>
+</html>
+
+
